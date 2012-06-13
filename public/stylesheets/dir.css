@@ -1,0 +1,83 @@
+input {
+
+		font-family: 'Terminal Dosis', sans-serif;
+
+		font-size: 22px;
+
+		padding: 7px 8px;	
+
+		border: 0px;
+
+		box-shadow: 0px 0px 6px #999;
+
+		border-radius: 10px;
+
+	}
+
+	input[type="text"] {
+
+		width: 300px;
+
+	}
+
+	input[type="submit"] {
+
+		padding: 6px 20px;	
+
+		margin-left: 10px;
+
+	}
+
+	#routeForm {
+
+		width: 100%;
+
+		text-align: center;
+
+		margin-top: 20px;	
+
+	}
+
+#maps	{
+	}	
+
+	#map_canvas {
+	
+	width: 450px;
+	
+	height: 450px;
+
+	float:left;	
+	
+	}
+
+	#directionsPanel {
+
+		background: #FFFFFF;
+
+		width: 350px;
+
+		padding: 20px;
+
+		margin: 0 auto;
+
+		box-shadow: 0px 0px 6px #999;
+
+		border-radius: 10px;
+
+		font-size: 20px;
+		
+		float:right;
+
+	}
+
+	.adp-directions {
+
+		width: 100%;	
+
+	}
+	
+	.adp-step, .adp-text{
+
+		width:93%;
+	}
