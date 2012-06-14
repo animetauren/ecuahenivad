@@ -1,10 +1,16 @@
+<style type="text/css">
+img.center{
+  display: block;   margin-left: auto;   margin-right: auto; 
+}
+</style>
+
     <div class="container">
 
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
        <h1 align="center">*Welcome to Ecua Henivad!*</h1>
      </br>
-        <img class="center" src="../public/images/welcomeimage.jpg">
+        <img class="center" src="../public/images/welcome.jpg" width="820" height="615">
 <!--         <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
  -->   
       </div>

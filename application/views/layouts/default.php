@@ -14,7 +14,7 @@
 `.__.'_. (___)(___) (___)(___)(___)  `.__.   (___)       (___)(___)  -->
 
   <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Ecua Henivad Body Shop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Ecua Henivad Body Shop Official Website">
@@ -23,8 +23,8 @@
     <!-- Le styles -->
     <link href="../public/stylesheets/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="../public/stylesheets/lavish.min.css" rel="stylesheet">
-    <link href="../public/stylesheets/formprocessed.css" rel="stylesheet">
-    <link href="../public/stylesheets/welcome.css" rel="stylesheet">
+<!--     <link href="../public/stylesheets/formprocessed.css" rel="stylesheet">
+    <link href="../public/stylesheets/welcome.css" rel="stylesheet"> -->
 
     <style type="text/css">
       body {
