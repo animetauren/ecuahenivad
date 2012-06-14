@@ -22,8 +22,8 @@
 
 
     <!-- Le styles -->
-    <link href="../public/stylesheets/lavish.css" rel="stylesheet">
-    <link href="../public/stylesheets/bootstrap-responsive.css" rel="stylesheet">
+    <link href="../public/stylesheets/lavish.min.css" rel="stylesheet">
+    <link href="../public/stylesheets/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="../public/stylesheets/formprocessed.css" rel="stylesheet">   
     <link href="../public/stylesheets/welcome.css" rel="stylesheet">
    
@@ -98,19 +98,8 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?=3.9&sensor=false"> </script> 
-    <script src="../public/javascript/jquery.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script> 
+    <script src="../public/javascript/jquery-1.7.2.min.js"></script>
     <script src="../public/javascript/dir.js"></script>
-    <script src="../public/javascript/bootstrap.js"></script>
-<script type="text/javascript"> 
-var $buoop = {} 
-$buoop.ol = window.onload; 
-window.onload=function(){ 
- try {if ($buoop.ol) $buoop.ol();}catch (e) {} 
- var e = document.createElement("script"); 
- e.setAttribute("type", "text/javascript"); 
- e.setAttribute("src", "http://browser-update.org/update.js"); 
- document.body.appendChild(e); 
-} 
-</script> 
+    <script src="../public/javascript/bootstrap.min.js"></script>
 </html>
