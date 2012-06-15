@@ -6,8 +6,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php/$1 [L,QSA]
 
 # Enforce NO www
-#RewriteCond %{HTTP_HOST} ^www [NC]
-#RewriteRule ^(.*)$ http://dev.ecuahenivadbodyshop.com/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^www [NC]
+RewriteRule ^(.*)$ http://dev.ecuahenivadbodyshop.com/$1 [L,R=301]
 
  # Enabling gzip compresssion in the .htaccess file
  AddOutputFilterByType DEFLATE text/plain
