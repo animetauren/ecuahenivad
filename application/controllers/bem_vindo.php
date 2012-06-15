@@ -19,27 +19,7 @@ class Bem_vindo extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->library('user_agent');
 
-		if($this->agent->is_mobile())
-    {
-        $this->load_mobile();   
-    }   
-    else
-    {
-        $this->load_web();
-    }
-
-	
-}
-
-	public function load_mobile()
-  {
-  	$this->template->set_layout('default_m')->build('mobile/m_pt');
-	}
-
-	public function load_web()
-	{
       $this->template->set_layout('default_pt')->build('welcome_pt');
 	}
 }	

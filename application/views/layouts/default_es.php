@@ -1,51 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>A Responsive Layout with Bootstrap</title>
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-<!--                                                                  
-                                   (   )                            
-  .---.   ___ .-.    ___ .-. .-.    | |_      ___ .-.     ___ .-.   
- / .-, \ (   )   \  (   )   '   \  (   __)   (   )   \   (   )   \  
-(__) ; |  |  .-. .   |  .-.  .-. ;  | |       | ' .-. ;   |  .-. .  
-  .'`  |  | |  | |   | |  | |  | |  | | ___   |  / (___)  | |  | |  
- / .'| |  | |  | |   | |  | |  | |  | |(   )  | |         | |  | |  
-| /  | |  | |  | |   | |  | |  | |  | | | |   | |         | |  | |  
-; |  ; |  | |  | |   | |  | |  | |  | ' | |   | |         | |  | |  
-' `-'  |  | |  | |   | |  | |  | |  ' `-' ;   | |         | |  | |  
-`.__.'_. (___)(___) (___)(___)(___)  `.__.   (___)       (___)(___)  -->
+        <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 
-  <head>
-    <meta charset="utf-8">
-    <title>Ecua Henivad Body Shop</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Ecua Henivad Body Shop Official Website" content="">
-    <meta name="anmtrn" content="ecua henivad, henivad, heniva, accident, claims, body shop, car, auto, vans, mechanic, paint, auto body, frame, repair, newark, newark nj, nj, spanish"/>
+        <!-- Le styles -->
+        <link href="../public/stylesheets/lavish.min.css" rel="stylesheet">
+        <link href="css/theme.css" rel="stylesheet">
+        <link href="../public/stylesheets/bootstrap-responsive.min.css" rel="stylesheet">
 
-
-    <!-- Le styles -->
-    <link href="../public/stylesheets/lavish.min.css" rel="stylesheet">
-    <link href="../public/stylesheets/bootstrap-responsive.min.css" rel="stylesheet">
-    <link href="../public/stylesheets/formprocessed.css" rel="stylesheet">    
-    <link href="../public/stylesheets/welcome.css" rel="stylesheet">
-   
-    <style type="text/css">
+            <style type="text/css">
       body {
         padding-top: 60px;
         padding-bottom: 40px;
       }
     </style>
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-  </head>
+    </head>
 
   <body>
 
@@ -57,49 +35,39 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="../bienvenido">Ecua Henivad</a>
-           <div class="btn-group pull-right">
-            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-              <i class="icon-globe"></i> Español
-              <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-              <li><a href="../bem_vindo">Português</a></li>
-              <li class="divider"></li>
-              <li><a href="../welcome">English</a></li>
-            </ul>
-          </div>
+          <a class="brand" href="#">Project name</a>
           <div class="nav-collapse">
             <ul class="nav">
-              <li><a href="../work_es">Nuestro Trabajo</a></li>
-              <li><a href="../mapas">Mapas</a></li>
-              <li><a href="../about_es">Sobre Nosotros</a></li>
-              <li><a href="../contacts_es">Contacto</a></li>
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <ul class="nav pull-right">
+                <li class="dropdown" id="menu1">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1">
+                        mconventi
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Sign out</a></li>
+                    </ul>
+                </li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
-    </div>      
-
-  <?php echo $template['body']; ?>
-
-      <hr>
-
-<footer>
-        <p>&copy; Ecua Henivad Body Shop 2012</p>
-        <p>218 Thomas St, Newark, NJ 07114</p>
-        <p>phone: 973-877-0905 fax: 973-877-0906 </p>
-        <p>M-F: 8:00am - 6:00pm Saturday: 8:00am - 2:00pm</p>
-        <p>Disenado por <a href="http://web.njit.edu/~hr28/">anmtrn</a> email me at <a href="mailto:hr28@njit.edu">hr28(at)njit(dot)edu</a></p>
-      </footer>
-
-    </div> <!-- /container -->
+    </div>
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script> 
     <script src="../public/javascript/jquery-1.7.2.min.js"></script>
-    <script src="../public/javascript/dir.js"></script>
     <script src="../public/javascript/bootstrap.min.js"></script>
-</html>
+
+  
+
+</body></html>

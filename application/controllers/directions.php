@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Maps extends CI_Controller {
+class Directions extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -19,7 +19,7 @@ class Maps extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->template->set_layout('default')->build('maps');
+		$this->template->set_layout('default')->build('directions');
 	}
 }
 

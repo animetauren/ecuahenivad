@@ -6,14 +6,58 @@ img.center{
 
     <div class="container">
 
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
-       <h1 align="center">*Welcome to Ecua Henivad!*</h1>
-     </br>
-        <img class="center" src="../public/images/welcome.jpg" width="820" height="615">
-<!--         <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
- -->   
+<section id="typography">
+  <div class="row">
+    <div class="span8">
+  <div class="page-header">
+    <h1>Welcome to Ecua Henivad Body Shop!</h1>
+  </div>
+</div>
+    <div class="span4">
+      <h2>Call (973)877-0905 Today!!</h2>
+    </div>  
+</div>
+  <!-- Headings & Paragraph Copy -->
+  <div class="row">
+    
+    <div class="span8">
+    <img src="../public/images/bmw.jpg" width="600" height="380"> 
+    </div>
+    
+    <div class="span4">
+      <div class="well">
+        <h1>Our Services</h1>
+        <h3>Auto Body Repair</h3>
+        <h3>Insurance Repairs</h3>
+        <h3>Auto Mechanic</h3>
+        <h3>Auto Painting</h3>
+        <h3>Transmissions</h3>
+        <h3>Diagnostics</h3>
+        <h3>Suspensions</h3>
+        <h3>Check Engine</h3>
+        <h3>Tune Up</h3>
       </div>
+    </div>
+  
+<!--     <div class="span4">
+      <h3>Ecua Henivad Body Shop, LLC</h3>
+      <address>
+        <strong>
+        80 Thomas St<br>
+        Newark, NJ 07114<br>
+        <abbr title="Phone">P:</abbr> (973) 877-0905
+        <abbr title="Fax">F:</abbr> (973) 877-0906
+        </strong>
+      </address>
+      <address>
+        <strong>Email Us</strong><br>
+        <a href="mailto:#">ecuahenivad@gmail.com</a>
+      </address>
+    </div> -->
+
+  </div>
+
+</section>
 
       <!-- Example row of columns -->
       <div class="row">

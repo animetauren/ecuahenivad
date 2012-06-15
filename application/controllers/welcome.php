@@ -19,27 +19,7 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->library('user_agent');
 
-		if($this->agent->is_mobile())
-    {
-        $this->load_mobile();   
-    }   
-    else
-    {
-        $this->load_web();
-    }
-
-	
-}
-
-	public function load_mobile()
-  {
-  	$this->template->set_layout('default_m')->build('mobile/m');
-	}
-
-	public function load_web()
-	{
       $this->template->set_layout('default')->build('welcome_en');
 	}
 }	
