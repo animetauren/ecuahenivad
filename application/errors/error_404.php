@@ -55,8 +55,34 @@ p {
 </head>
 <body>
 	<div id="container">
-		<h1><?php echo $heading; ?></h1>
-		<?php echo $message; ?>
+		<h1 align="center"><?php echo $heading; ?></h1>
+
+		<pre>                               !         !          
+                              ! !       ! !          
+                             ! . !     ! . !          
+                               ^^^^^^^^^^^            
+                             ^             ^          
+                           ^  (0)       (0)  ^                 <b>Sorry Totoro could</b>   
+                          ^        " "        ^       
+                         ^   ***************    ^              <b>not find your page</b> 
+                       ^   *                 *   ^    
+                      ^   *   /\   /\   /\    *    ^           <b>:'(</b>
+                     ^   *                     *    ^           
+                    ^   *   /\   /\   /\   /\   *    ^         <a href="../welcome">home??</a> 
+                   ^   *                         *    ^
+                   ^  *   _  _      ___    _  _   *   ^
+                   ^  *  | || |    / _ \  | || |  *   ^
+                    ^ *  | || |_  | | | | | || |_ *  ^  
+                     ^*  |__   _| | | | | |__   _|* ^ 
+                      ^ *   | |   | |_| |    | | * ^
+                      ^  *  |_|    \___/     |_|*  ^
+                        ^  *       ) (         * ^
+                            ^^^^^^^^ ^^^^^^^^^ 
+
+
+                                        "Totoro" (from "My Neighbor Totoro")
+                                            --- Mabel Mak
+    </pre>
 	</div>
 </body>
 </html>

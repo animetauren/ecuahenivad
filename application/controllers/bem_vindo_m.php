@@ -19,7 +19,7 @@ class Bem_vindo_m extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->template->set_layout('default_m_pt')->build('m_pt');
+		$this->template->set_layout('default_m_pt')->build('mobile/m_pt');
 	}
 }
 

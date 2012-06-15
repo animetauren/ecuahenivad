@@ -19,9 +19,30 @@ class Bienvenido extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->template->set_layout('default_es')->build('welcome_es');
-	}
+		$this->load->library('user_agent');
+
+		if($this->agent->is_mobile())
+    {
+        $this->load_mobile();   
+    }   
+    else
+    {
+        $this->load_web();
+    }
+
+	
 }
+
+	public function load_mobile()
+  {
+  	$this->template->set_layout('default_m')->build('mobile/m_es');
+	}
+
+	public function load_web()
+	{
+      $this->template->set_layout('default_es')->build('welcome_es');
+	}
+}	
 
 /* End of file welcome.php */
 /* Location: ./application/controllers/welcome.php */

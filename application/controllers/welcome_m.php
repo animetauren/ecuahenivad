@@ -19,7 +19,7 @@ class Welcome_m extends CI_Controller {
 	 */
 	public function index()
 	{
-      $this->template->set_layout('default_m')->build('m');
+      $this->template->set_layout('default_m')->build('mobile/m');
 	}
 }
 
