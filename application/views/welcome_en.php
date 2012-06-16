@@ -14,7 +14,7 @@ img.center{
   </div>
 </div>
     <div class="span4">
-      <h2>Call (973)877-0905 Today!!</h2>
+      <h1>Call <font color="yellow">(973)</font><font color="blue">877</font><font color="red">-0905</font> Today!!</h1>
     </div>  
 </div>
   <!-- Headings & Paragraph Copy -->
