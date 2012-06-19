@@ -17,11 +17,30 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index()
-	{
 
-      $this->template->set_layout('default')->build('welcome_en');
-	}
+public function index()
+{   
+	$this->load->library('user_agent');
+    if($this->agent->is_mobile())
+    {
+        $this->load_mobile();   
+    }   
+    else
+    {
+        $this->load_web();
+    }
+}
+
+public function load_mobile()
+{
+    $this->template->set_layout('default')->build('mobile/m');
+}
+
+public function load_web()
+{
+	  $this->template->set_layout('default')->build('web/welcome_en');
+}
+
 }	
 
 /* End of file welcome.php */
