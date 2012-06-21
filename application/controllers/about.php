@@ -19,7 +19,7 @@ class About extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->template->set_layout('default')->build('about');
+		$this->template->set_layout('default')->build('web/about');
 	}
 }
 

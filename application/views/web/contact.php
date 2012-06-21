@@ -55,7 +55,7 @@
             <label>Message*</label>
             <textarea class="input span6" id="textarea" rows="6" value="<?php echo set_value('message'); ?>" name="message" placeholder="Type your message here."></textarea>
             <br>
-            <a class="btn btn-large moveright" href="mailto:test@jiffy.cc"><i class="icon-envelope"></i> Send</a>
+            <div><input type="submit" value="Submit" /></div>
           </form>
         </div>
 

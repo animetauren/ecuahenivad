@@ -29,11 +29,11 @@ class Contacts extends CI_Controller {
 
 		if ($this->form_validation->run() == FALSE)
 		{
-			$this->template->set_layout('default')->build('contact');
+			$this->template->set_layout('default')->build('web/contact');
 		}
 		else
 		{
-			$this->template->set_layout('default')->build('formsuccess');
+			$this->template->set_layout('default')->build('web/formsuccess');
 		}
 		// $this->template->set_layout('default')->build('contact');
 	}

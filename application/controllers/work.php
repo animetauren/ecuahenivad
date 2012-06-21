@@ -19,7 +19,7 @@ class Work extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->template->set_layout('default')->build('our_work');
+		$this->template->set_layout('default')->build('web/our_work');
 	}
 }
 

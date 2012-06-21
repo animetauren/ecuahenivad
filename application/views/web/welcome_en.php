@@ -14,7 +14,7 @@ img.center{
   </div>
 </div>
     <div class="span4">
-      <h1>Call <font color="yellow">(973)</font><font color="blue">877</font><font color="red">-0905</font> Today!!</h1>
+      <h1>Call (973) 877-0905 Today!!</h1>
     </div>  
 </div>
   <!-- Headings & Paragraph Copy -->
@@ -29,8 +29,9 @@ img.center{
         <h1>Our Services</h1>
         <h3>Auto Body Repair</h3>
         <h3>Insurance Repairs</h3>
-        <h3>Auto Mechanic</h3>
-        <h3>Auto Painting</h3>
+        <h3>Collision Repairs</h3>
+        <h3>Unibody & Frame Straightening</h3>
+          <h3>Auto Painting</h3>
         <h3>Transmissions</h3>
         <h3>Diagnostics</h3>
         <h3>Suspensions</h3>
