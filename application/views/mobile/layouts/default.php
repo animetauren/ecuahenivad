@@ -16,13 +16,6 @@
         <link href="../public/stylesheets/lavish.min.css" rel="stylesheet">
         <link href="css/theme.css" rel="stylesheet">
         <link href="../public/stylesheets/bootstrap-responsive.min.css" rel="stylesheet">
-
-            <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-    </style>
     </head>
 
   <body>
@@ -35,15 +28,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Ecua Henivad</a>
+          <a class="brand" href="../welcome">Ecua Henivad</a>
           <div class="nav-collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li class="active"><a href="../welcome">Home</a></li>
+              <li><a href="../about_m">About</a></li>
+              <li><a href="../contacts_m">Contact</a></li>
             </ul>
 
-            <ul class="nav pull-right">
+<!--             <ul class="nav pull-right">
                 <li class="dropdown" id="menu1">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1">
                         mconventi
@@ -56,7 +49,7 @@
                         <li><a href="#">Sign out</a></li>
                     </ul>
                 </li>
-            </ul>
+            </ul> -->
           </div><!--/.nav-collapse -->
         </div>
       </div>
