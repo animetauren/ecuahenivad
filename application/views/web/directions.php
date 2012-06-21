@@ -1,4 +1,59 @@
+      <script src="http://cdn.jquerytools.org/1.2.5/full/jquery.tools.min.js"></script>
+
+    <script src="../public/javascript/jquery.print-preview.js" type="text/javascript" charset="utf-8"></script>
 <link href="../public/stylesheets/dir.css" rel="stylesheet">
+    <link rel="stylesheet" href="../public/stylesheets/print.css" type="text/css" media="print" />
+
+    <link rel="stylesheet" href="../public/stylesheets/print-preview.css" type="text/css" media="screen">
+
+
+    <script type="text/javascript">
+
+        $(function() {
+
+            /*
+
+             * Initialise example carousel
+
+             */
+
+            $("#feature > div").scrollable({interval: 2000}).autoscroll();
+
+            
+
+            /*
+
+             * Initialise print preview plugin
+
+             */
+
+            // Add link for print preview and intialise
+
+            $('#routeStart').prepend('<a class="print-preview">Print this page</a>');
+
+            $('a.print-preview').printPreview();
+
+            
+
+            // Add keybinding (not recommended for production use)
+
+            $(document).bind('keydown', function(e) {
+
+                var code = (e.keyCode ? e.keyCode : e.which);
+
+                if (code == 80 && !$('#print-modal').length) {
+
+                    $.printPreview.loadPrintPreview();
+
+                    return false;
+
+                }            
+
+            });
+
+        });
+
+    </script>
 
 <body onload="initialize()">
 
@@ -11,7 +66,6 @@
 	<input type="submit" value="Calculate route">
 	</form>
 
-<!--   <a href="#" onclick="window.open ('../print')">print</a>  -->
 	<br/>
 	<div id="maps">
 	<div id="map_canvas" style="width:500px; height:500px"></div>
@@ -25,4 +79,5 @@
 	</div>
 
 
+</div>
 </div>

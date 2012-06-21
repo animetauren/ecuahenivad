@@ -33,7 +33,7 @@ public function index()
 
 public function load_mobile()
 {
-    $this->template->set_layout('default')->build('mobile/m');
+    $this->template->set_layout('default')->build('mobile/mobi');
 }
 
 public function load_web()

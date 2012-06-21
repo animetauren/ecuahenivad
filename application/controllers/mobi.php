@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Welcome_m extends CI_Controller {
+class Mobi extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -19,7 +19,7 @@ class Welcome_m extends CI_Controller {
 	 */
 	public function index()
 	{
-      $this->template->set_layout('default_m')->build('mobile/m');
+		$this->template->set_layout('default')->build('mobile/mobi');
 	}
 }
 

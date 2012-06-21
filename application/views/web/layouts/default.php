@@ -24,6 +24,7 @@
     <!-- Le styles -->
     <link href="../public/stylesheets/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="../public/stylesheets/lavish.min.css" rel="stylesheet">
+    
 <!--     <link href="../public/stylesheets/formprocessed.css" rel="stylesheet">
     <link href="../public/stylesheets/welcome.css" rel="stylesheet"> -->
 
@@ -100,7 +101,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script> 
-    <script src="../public/javascript/jquery-1.7.2.min.js"></script>
+    <script src="../public/javascript/jquery.min.js"></script>
     <script src="../public/javascript/dir.js"></script>
     <script src="../public/javascript/bootstrap.min.js"></script>
 </html>
