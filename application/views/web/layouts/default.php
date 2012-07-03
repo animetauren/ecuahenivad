@@ -92,7 +92,7 @@
         <p>218 Thomas St, Newark, NJ 07114</p>
         <p>phone: 973-877-0905 fax: 973-877-0906 </p>
         <p>M-F: 8:00am - 6:00pm Saturday: 8:00am - 2:00pm</p>
-        <p>Designed by <a href="http://web.njit.edu/~hr28/">anmtrn</a> email me at <a href="mailto:hr28@njit.edu">hr28(at)njit(dot)edu</a></p>
+        <p>Designed by <a href="http://web.njit.edu/~hr28/">anmtrn</a></p>
       </footer>
 
     </div> <!-- /container -->
