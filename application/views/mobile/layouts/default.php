@@ -32,7 +32,9 @@
           <div class="nav-collapse">
             <ul class="nav">
               <li class="active"><a href="../welcome">Home</a></li>
-              <li><a href="../about">About</a></li>
+              <li><a href="../work">Our Work</a></li>
+              <li><a href="../dir">Directions</a></li>
+              <li><a href="../about_m">About</a></li>
               <li><a href="../contacts">Contact</a></li>
             </ul>
 
@@ -55,12 +57,18 @@
       </div>
     </div>
   <?php echo $template['body']; ?>
+  <footer>
+        <p>&copy; Ecua Henivad Body Shop 2012</p>
+        <p>218 Thomas St, Newark, NJ 07114</p>
+        <p>phone: 973-877-0905 fax: 973-877-0906 </p>
+        <p>M-F: 8:00am - 6:00pm Saturday: 8:00am - 2:00pm</p>
+        <p>Designed by <a href="http://web.njit.edu/~hr28/">anmtrn</a></p>
+      </footer>
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script> 
     <script src="../public/javascript/jquery.min.js"></script>
+    <script src="../public/javascript/dir.js"></script>
     <script src="../public/javascript/bootstrap.min.js"></script>
-
-  
-
 </html>

@@ -64,4 +64,4 @@
         <iframe frameborder="0" height="350"  width="480" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?f=q&amp;geocode=&amp;hl=en&amp;ie=UTF8&amp;q=218+Thomas+St,+Newark,+NJ+07114&amp;s=AARTsJosUXHCYYIUhFORtStH9doGfNr2Wg&amp;sll=40.721201,-74.171419&amp;sspn=0.032744,0.076561&amp;view=map&amp;hq=&amp;hnear=218+Thomas+St,+Newark,+Essex,+New+Jersey+07114&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
         </div>
       </div>
-   
+      <hr>

@@ -18,6 +18,9 @@
         <h3>Suspensions</h3>
         <h3>Check Engine</h3>
         <h3>Tune Up</h3>
+        <h2 align="center">Call Us!
+        </br>973-877-0905</h2>
+
       </div>
     </div>
   </div>
@@ -40,16 +43,5 @@
 <!--           <p><a class="btn" href="#">View details &raquo;</a></p>
  -->        </div>
       </div>
-      
-
       <hr>
-
-<footer>
-        <p>&copy; Ecua Henivad Body Shop 2012</p>
-        <p>218 Thomas St, Newark, NJ 07114</p>
-        <p>phone: 973-877-0905 fax: 973-877-0906 </p>
-        <p>M-F: 8:00am - 6:00pm Saturday: 8:00am - 2:00pm</p>
-        <p>Designed by <a href="http://web.njit.edu/~hr28/">anmtrn</a></p>
-      </footer>
-
     </div> <!-- /container -->

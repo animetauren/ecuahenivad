@@ -1,78 +1,47 @@
-    <div class="container">
-      <div class="row well">
-          <div class="span6">
-                <div id="main-carousel" class="carousel">
-                    <!-- Carousel items -->
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img alt="" src="carousel-images/bootstrap-mdo-sfmoma-01.jpg">
-                            <div class="carousel-caption">
-                                <h4>First Thumbnail label</h4>
-                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img alt="" src="carousel-images/bootstrap-mdo-sfmoma-02.jpg">
-                            <div class="carousel-caption">
-                                <h4>Second Thumbnail label</h4>
-                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img alt="" src="carousel-images/bootstrap-mdo-sfmoma-03.jpg">
-                            <div class="carousel-caption">
-                                <h4>Third Thumbnail label</h4>
-                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Carousel nav -->
-                    <a class="carousel-control left" href="#main-carousel" data-slide="prev">&lsaquo;</a>
-                    <a class="carousel-control right" href="#main-carousel" data-slide="next">&rsaquo;</a>
-                </div>
-          </div>
-          <div class="span5">
-            <h1>Hello, world!</h1>
-            <p>This is a template for a simple marketing or informational
-    website. It includes a large callout called the hero unit and three
-    supporting pieces of content. Use it as a starting point to create
-    something more unique.</p>
-            <p><a class="btn btn-primary btn-large">Learn more »</a></p>
-          </div>
-      </div>
-
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="span4">
-          <h2>Heading</h2>
-           <p>Donec id elit non mi porta gravida at eget metus. Fusce 
-dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut 
-fermentum massa justo sit amet risus. Etiam porta sem malesuada magna 
-mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn" href="#">View details »</a></p>
-        </div>
-        <div class="span4">
-          <h2>Heading</h2>
-           <p>Donec id elit non mi porta gravida at eget metus. Fusce 
-dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut 
-fermentum massa justo sit amet risus. Etiam porta sem malesuada magna 
-mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn" href="#">View details »</a></p>
-       </div>
-        <div class="span4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis 
-in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. 
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
- ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">View details »</a></p>
-        </div>
-      </div>
-
-      <hr>
-
-      <footer>
-        <p>© Company 2012</p>
-      </footer>
-
-    </div> <!-- /container -->
+<div class="container">
+  <div class="row">
+	 <div class="span12">
+    <h1>About Us:</h1></br><h1> Languages We Speak!</h1>
+    <hr>
+   <div class="span2">
+   	<img src="../public/images/american_flag.png"/>
+   </div>
+   <div class="span8" align="right">
+   	<h1>English</h1>
+        <p align="justify">If you're looking for excellent service and a 
+          people-friendly approach, then you've come to the right place.
+           At Ecua Henivad Body Shop, our ultimate goal is to serve you and 
+           make your experience a pleasant one, and our team will stop at 
+           nothing to ensure that you come away more than satisfied.</p>
+   	</div>
+   </div>
+</br>
+    <div class="span2">
+    <img src="../public/images/ecuador_flag.png"/>
+   </div>
+<div class="span12">
+   <div class="span8" align="right"><h1>Español</h1>
+        <p align="justify">Si usted está buscando un excelente servicio y
+         un enfoque en el cliente, entonces has venido al lugar correcto.
+          En Ecua Henivad Body Shop, nuestro objetivo final es para servirle a 
+          usted y hacer que su experiencia sea agradable, y nuestro equipo
+           se detendrá ante nada para asegurarse de que usted termina más 
+           que satisfecho.</p>
+   </div>
+</div>
+<div class="span12">
+    <div class="span2">
+    <img src="../public/images/brasil_flag.png"/>
+   </div>
+   <div class="span8" align="right">
+    <h1>Portugues</h1>
+    <p align="justify">Se você está procurando um serviço excelente e uma 
+      abordagem de pessoas-friendly, então você veio ao lugar certo. No Ecua 
+      Henivad Body Shop, nosso objetivo final é servi-lo e tornar a sua experiência a
+        mais agradável possível, e nossa equipe vai parar em nada para garantir 
+        que você sair mais do que satisfeito.</p>
+   </div>
+</div>
+  </div>
+</div>
+<hr>
