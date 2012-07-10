@@ -18,7 +18,7 @@
         <link href="../public/stylesheets/bootstrap-responsive.min.css" rel="stylesheet">
     </head>
 
-  <body>
+  
 
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
@@ -32,8 +32,8 @@
           <div class="nav-collapse">
             <ul class="nav">
               <li class="active"><a href="../welcome">Home</a></li>
-              <li><a href="../about_m">About</a></li>
-              <li><a href="../contacts_m">Contact</a></li>
+              <li><a href="../about">About</a></li>
+              <li><a href="../contacts">Contact</a></li>
             </ul>
 
 <!--             <ul class="nav pull-right">
@@ -54,13 +54,13 @@
         </div>
       </div>
     </div>
-
+  <?php echo $template['body']; ?>
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../public/javascript/jquery-1.7.2.min.js"></script>
+    <script src="../public/javascript/jquery.min.js"></script>
     <script src="../public/javascript/bootstrap.min.js"></script>
 
   
 
-</body></html>
+</html>

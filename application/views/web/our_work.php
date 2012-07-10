@@ -55,7 +55,7 @@
                 </div>
               </div>
             <div class="item">
-                <img src="../public/images/accord5.jpg" width="940" height="705" alt="">
+                <img src="../public/images/accord5.jpg" alt="">
                 <div class="carousel-caption">
                   <h4>Ford Mustang Paint Job</h4>
                   <p>Looking like new car, this Ford Mustang is ready to hit the road, with a paint job done by Ecua Henivad Body Shop.</p>
